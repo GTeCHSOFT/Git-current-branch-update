@@ -1,7 +1,7 @@
 # Git-current-branch-update
 get the current branch and make pull PHP class
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.PNG)
 
 ```php
 $git = new Git;
