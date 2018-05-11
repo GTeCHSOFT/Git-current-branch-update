@@ -24,7 +24,7 @@ echo json_encode(array('pumsg' =>$pu ));
 ```
 ## Second Class [GitRepos.php]
 ```php
-require_once('./Git_cls.php');
+require_once('./GitRepos.php');
 
 //Windows Exemple
 Git::windows_mode();
