@@ -39,7 +39,7 @@ echo $repo->Version();
 $res = $repo->Count_Commits();
 // will get array() with count of in and out commit not applied
 
-$pu =  $repo->pull("origin","master");
+$pu =  $repo->pull("origin","master"); // ("remote","branch")
 echo json_encode(array('pumsg' =>$pu ));
 // Pull and show result
 ```
